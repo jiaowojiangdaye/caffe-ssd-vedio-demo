@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ssd"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\program\;CMake Files\..\..\program\clion-2018.3.3\;CMake Files\..\..\program\clion-2018.3.3\bin\;CMake Files\..\..\program\clion-2018.3.3\bin\cmake\;CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\;CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\;CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\;CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\;CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Platform\;CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Compiler\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aaron/mydisk/aWS/ssd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aaron/mydisk/aWS/ssd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aaron/mydisk/aWS/ssd/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd">
+				<Option output="/home/aaron/mydisk/aWS/ssd/cmake-build-debug/libssd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaron/mydisk/aWS/ssd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/include"/>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/src"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/aaron/mydisk/aWS/ssd"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 ssd"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd/fast">
+				<Option output="/home/aaron/mydisk/aWS/ssd/cmake-build-debug/libssd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaron/mydisk/aWS/ssd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/include"/>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/src"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/aaron/mydisk/aWS/ssd"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 ssd/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option output="/home/aaron/mydisk/aWS/ssd/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaron/mydisk/aWS/ssd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/include"/>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/src"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/aaron/mydisk/aWS/ssd"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run/fast">
+				<Option output="/home/aaron/mydisk/aWS/ssd/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaron/mydisk/aWS/ssd/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/include"/>
+					<Add directory="/home/aaron/mydisk/envs/caffe_lib/caffe/src"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/aaron/mydisk/aWS/ssd"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 run/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aaron/mydisk/aWS/ssd/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd">
+			<Option target="ssd"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/main.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeFindCodeBlocks.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeGenericSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/ProcessorCount.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Platform/Linux-GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Platform/Linux-GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Platform/Linux.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Platform/UnixPaths.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Compiler/GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../program/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\program\clion-2018.3.3\bin\cmake\linux\share\cmake-3.13\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aaron/mydisk/aWS/ssd/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
